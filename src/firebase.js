@@ -3,13 +3,13 @@ import { getAuth } from 'firebase/auth'
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCOByj8BmFd6KbtpBnqf2IDIdySWz5iRik",
-  authDomain: "elibrarybonch.firebaseapp.com",
-  projectId: "elibrarybonch",
-  storageBucket: "elibrarybonch.appspot.com",
-  messagingSenderId: "789369466567",
-  appId: "1:789369466567:web:bd272a59778aa45f0218e2",
-  measurementId: "G-Z4KXC4W42X"
+  apiKey: YOUR_API_KEY,
+  authDomain: YOUR_AUTH_DOMAIN,
+  projectId: YOUR_PROJECT_ID,
+  storageBucket: YOUR_STORAGE_BUCKET,
+  messagingSenderId: YOUR_MESSAGING_SENDER_ID,
+  appId: YOUR_APP_ID,
+  measurementId: YOUR_MEASUREMENT_ID
 }
 
 const app = initializeApp(firebaseConfig)
